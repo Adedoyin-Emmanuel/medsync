@@ -36,23 +36,41 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-screen flex items-center md:justify-center justify-between md:flex-row flex-col py-5 overflow-x-hidden z-10">
+    <>
+    <p style={{backgroundColor:"#218353",padding:"8px 0px;",textAlign:"center",width:'100%',color:"#fff",fontSize:"16px"}}>This project is sponsored by  Pipeops. It was developed during the hackathon period</p>
+    <nav className="w-11/12 mx-auto flex items-center md:justify-between justify-between md:flex-row flex-col py-5 overflow-x-hidden z-10">
       <h2 className="font-extrabold text-4xl text-secondary mx-5 md:flex items-center hidden cursor-pointer">
         <Link href="/">Medisync</Link>
       </h2>
-
-      <section className="hidden md:flex items-end justify-end w-4/6 overflow-x-hidden space-x-6">
-        {navItems.map((navItem, index) => (
-          <Link href={navItem.link} key={index}>
-            {navItem.element}
+      <section className="hidden md:flex items-end justify-end  overflow-x-hidden space-x-6">
+      <Link href="/" className=" block my-6" style={{color:"#218353"}}>
+      Home
           </Link>
-        ))}
+          <Link href="/about" className=" block my-6" style={{color:"#218353"}}>
+          How it works
+          </Link>
+          <Link href="/functions" className=" block my-6" style={{color:"#218353"}}>
+          Functions
+          
+          </Link>
+          <Link href="/Team" className=" block my-6" style={{color:"#218353"}}>
+          Team
+          
+          </Link>
+      </section>
+      <section className="hidden md:flex items-end justify-end overflow-x-hidden space-x-4">
+      <button class="hover:bg-blue-700 text-black py-2 px-4 rounded-full"  style={{fontSize:"16px", backgroundColor:"#F2F3F5;"}}>
+  Sign up
+</button>
+<button class="bg-green-700 hover:bg-blue-700 text-white  py-2 px-4 rounded-full"  style={{fontSize:"16px"}}>
+  Login
+</button>
       </section>
 
       <section className="md:hidden flex w-full flex-col">
         <section className="header flex w-full items-center justify-between">
           <h2 className="font-extrabold text-secondary text-2xl mx-5">
-            <Link href="/">Caresync</Link>
+            <Link href="/">Medsync</Link>
           </h2>
 
           <section
@@ -88,6 +106,7 @@ const Navbar = () => {
         </section>
       </section>
     </nav>
+    </>
   );
 };
 
