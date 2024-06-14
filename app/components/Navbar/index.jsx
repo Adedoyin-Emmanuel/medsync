@@ -69,7 +69,7 @@ const Navbar = () => {
 
       <section className="lg:hidden flex w-full flex-col">
         <section className="header flex w-full items-center justify-between">
-          <h2 className="font-extrabold text-secondary text-2xl mx-5">
+          <h2 className="font-extrabold text-secondary text-2xl md:mx-5">
             <Link href="/">Medsync</Link>
           </h2>
 

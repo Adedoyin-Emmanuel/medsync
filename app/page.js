@@ -32,7 +32,7 @@ export default function Home() {
     <section>
       <Layout>
         <Navbar />
-        <section className="m-auto w-10/12">
+        <section className="m-auto w-full lg:w-10/12">
           <div className="container mx-auto  md:py-16 w-10/12 md:w-full md:px-4 md:space-x-10 flex flex-col lg:flex-row items-center justify-center lg:flex lg:items-start overflow-hidden" style={{ display: "flex", alignItems: "center;" }}>
             <div className="md:w-10/12 lg:w-1/2 mt-4 lg:mt-18">
               <p className="p-1 w-full md:w-9/12 text-center rounded-full mb-6" style={{ backgroundColor: "#F2F3F5;", fontSize: "16px" }}>
