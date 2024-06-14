@@ -39,10 +39,10 @@ const Navbar = () => {
     <>
     <p style={{backgroundColor:"#218353",padding:"8px 0px;",textAlign:"center",width:'100%',color:"#fff",fontSize:"16px"}}>This project is sponsored by  Pipeops. It was developed during the hackathon period</p>
     <nav className="w-11/12 mx-auto flex items-center md:justify-between justify-between md:flex-row flex-col py-5 overflow-x-hidden z-10">
-      <h2 className="font-extrabold text-4xl text-secondary mx-5 md:flex items-center hidden cursor-pointer">
+      <h2 className="font-extrabold text-4xl text-secondary mx-5 lg:flex items-center hidden cursor-pointer">
         <Link href="/">Medisync</Link>
       </h2>
-      <section className="hidden md:flex items-end justify-end  overflow-x-hidden space-x-6">
+      <section className="hidden lg:flex items-end justify-end  overflow-x-hidden space-x-6">
       <Link href="/" className=" block my-6" style={{color:"#218353"}}>
       Home
           </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
           
           </Link>
       </section>
-      <section className="hidden md:flex items-end justify-end overflow-x-hidden space-x-4">
+      <section className="hidden lg:flex  items-end justify-end overflow-x-hidden space-x-6">
       <button class="hover:bg-blue-700 text-black py-2 px-4 rounded-full"  style={{fontSize:"16px", backgroundColor:"#F2F3F5;"}}>
   Sign up
 </button>
@@ -67,7 +67,7 @@ const Navbar = () => {
 </button>
       </section>
 
-      <section className="md:hidden flex w-full flex-col">
+      <section className="lg:hidden flex w-full flex-col">
         <section className="header flex w-full items-center justify-between">
           <h2 className="font-extrabold text-secondary text-2xl mx-5">
             <Link href="/">Medsync</Link>
@@ -92,16 +92,20 @@ const Navbar = () => {
           </section>
         </section>
 
-        <section ref={mobileLinksRef} className="mx-5 my-2 overflow-hidden transition-max-h duration-500 ease-in-out">
-          <Link href="/auth/login" className="capitalize block my-6">
-            login
+        <section ref={mobileLinksRef} className="md:mx-5 my-2 overflow-hidden transition-max-h duration-500 ease-in-out">
+        <Link href="/" className=" block my-6" style={{color:"#218353"}}>
+      Home
           </Link>
-          <Link href="/auth/signup" className="capitalize block my-6">
-            signup
+          <Link href="/about" className=" block my-6" style={{color:"#218353"}}>
+          How it works
           </Link>
-          <Link href="https://github.com/adedoyin-emmanuel/caresync" className="capitalize flex items-center gap-x-3 my-6">
-            star project
-            <FiGitlab className="text-accent" />
+          <Link href="/functions" className=" block my-6" style={{color:"#218353"}}>
+          Functions
+          
+          </Link>
+          <Link href="/Team" className=" block my-6" style={{color:"#218353"}}>
+          Team
+          
           </Link>
         </section>
       </section>
