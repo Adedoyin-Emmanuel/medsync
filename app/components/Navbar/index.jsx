@@ -38,7 +38,7 @@ const Navbar = () => {
   return (
     <>
     <p style={{backgroundColor:"#218353",padding:"8px 0px;",textAlign:"center",width:'100%',color:"#fff",fontSize:"16px"}}>This project is sponsored by  Pipeops. It was developed during the hackathon period</p>
-    <nav className="w-11/12 mx-auto flex items-center md:justify-between justify-between md:flex-row flex-col py-5 overflow-x-hidden z-10">
+    <nav className="w-10/12 mx-auto flex items-center md:justify-between justify-between md:flex-row flex-col py-5 overflow-x-hidden z-10">
       <h2 className="font-extrabold text-4xl text-secondary mx-5 lg:flex items-center hidden cursor-pointer">
         <Link href="/">Medisync</Link>
       </h2>
