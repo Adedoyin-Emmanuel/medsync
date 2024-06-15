@@ -6,15 +6,23 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#29A368",
+          secondary: "#2EB875",
+          accent: "#BEEFD7",
+          neutral: "#DEF7EB",
+          "base-100": "#FFF",
+          info: "#7dd3fc",
+          success: "#3BCE87",
+          warning: "#fef08a",
+          error: "#f43f5e",
+        },
       },
-    },
+    ],
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
 export default config;
