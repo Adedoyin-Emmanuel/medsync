@@ -23,7 +23,7 @@ const Signup = () => {
     <>
    
       <section className=" mx-auto my-10 flex space-x-6">
-        <section className="w-1/2 ">
+        <section className="w-full md:w-1/2">
         <form
           className="w-10/12 mx-auto"
          
@@ -149,7 +149,7 @@ const Signup = () => {
           </section>
         </form>
         </section>
-        <section className="w-1/2 h-screen" >
+        <section className="hidden md:flex md:w-1/2 " >
         <img src="/Right.png" alt="sidebar signup" style={{width:"98%"}} />
       </section>
       </section>

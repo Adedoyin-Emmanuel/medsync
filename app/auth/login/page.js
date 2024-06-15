@@ -13,11 +13,11 @@ const Login = () => {
   return (
     <>
    
-      <section className=" mx-auto my-10 flex justify-center items-center space-x-2">
-      <section className="w-1/2" >
-        <img src="/Right.png" alt="sidebar signup" style={{width:"94%", margin:"auto;"}} />
+      <section className=" mx-auto my-10 flex flex-col w-screen  md:flex-row justify-center items-center space-x-2">
+      <section className="hidden md:flex md:w-1/2 " >
+        <img src="/Right.png" alt="sidebar signup"  className="h-screen" style={{width:"94%", margin:"auto;"}} />
       </section>
-        <section className="w-1/2 ">
+        <section className="w-full md:w-1/2 ">
         <form
           className="w-10/12 mx-auto"
          
