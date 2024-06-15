@@ -252,7 +252,7 @@ const Home = () => {
         description="Caresync Dashboard"
         keywords="dashboard, user dashboard"
       />
-      <div className="w-screen h-screen bg-zinc-50">
+      <div className="w-screen h-scren">
         {isLoading ? (
           <Loader />
         ) : (

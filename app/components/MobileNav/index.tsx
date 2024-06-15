@@ -31,7 +31,7 @@ const MobileNav = ({ className, children, ...others }: MobileNavProps) => {
         } transition-colors hover:text-secondary duration-100 ease-in flex flex-col items-center justify-center gap-y-2`}
       >
         <IoAnalytics className="h-5 w-5" />
-        <Text className="text-[12px]">Dashboard</Text>
+        <Text className="">Dashboard</Text>
       </Link>
 
       <Link
@@ -41,7 +41,7 @@ const MobileNav = ({ className, children, ...others }: MobileNavProps) => {
         } transition-colors hover:text-secondary duration-100 ease-in flex flex-col items-center justify-center gap-y-2`}
       >
         <BsCameraVideo className="h-5 w-5" />
-        <Text className="text-[12px]">Appointments</Text>
+        <Text className="">Appointments</Text>
       </Link>
 
       <Link
@@ -51,7 +51,7 @@ const MobileNav = ({ className, children, ...others }: MobileNavProps) => {
         } transition-colors hover:text-secondary duration-100 ease-in flex flex-col items-center justify-center gap-y-2`}
       >
         <BiMessageRoundedDots className="h-5 w-5" />
-        <Text className="text-[12px]">Messages</Text>
+        <Text className="">Messages</Text>
       </Link>
 
       <Link
@@ -65,7 +65,7 @@ const MobileNav = ({ className, children, ...others }: MobileNavProps) => {
         } transition-colors hover:text-secondary duration-100 ease-in flex flex-col items-center justify-center gap-y-2`}
       >
         <IoSettingsOutline className="h-5 w-5" />
-        <Text className="text-[12px]">Settings</Text>
+        <Text className="">Settings</Text>
       </Link>
     </section>
   );
@@ -93,7 +93,7 @@ export const HospitalMobileNav = ({
         } transition-colors hover:text-secondary duration-100 ease-in flex flex-col items-center justify-center gap-y-2`}
       >
         <IoAnalytics className="h-5 w-5" />
-        <Text className="text-[12px]">Dashboard</Text>
+        <Text className="">Dashboard</Text>
       </Link>
 
       <Link
@@ -103,7 +103,7 @@ export const HospitalMobileNav = ({
         } transition-colors hover:text-secondary duration-100 ease-in flex flex-col items-center justify-center gap-y-2`}
       >
         <BsCameraVideo className="h-5 w-5" />
-        <Text className="text-[12px]">Appointments</Text>
+        <Text className="">Appointments</Text>
       </Link>
 
       <Link
@@ -113,7 +113,7 @@ export const HospitalMobileNav = ({
         } transition-colors hover:text-secondary duration-100 ease-in flex flex-col items-center justify-center gap-y-2`}
       >
         <BiMessageRoundedDots className="h-5 w-5" />
-        <Text className="text-[12px]">Messages</Text>
+        <Text className="">Messages</Text>
       </Link>
 
       <Link
@@ -127,7 +127,7 @@ export const HospitalMobileNav = ({
         } transition-colors hover:text-secondary duration-100 ease-in flex flex-col items-center justify-center gap-y-2`}
       >
         <IoSettingsOutline className="h-5 w-5" />
-        <Text className="text-[12px]">Settings</Text>
+        <Text className="">Settings</Text>
       </Link>
     </section>
   );
