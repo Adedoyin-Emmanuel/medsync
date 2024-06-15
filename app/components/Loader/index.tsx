@@ -10,7 +10,7 @@ const Loader = ({ size, className }: LoaderProps) => {
   return (
     <div className="loader-container fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center z-50">
       <span
-        className={`loading loading-ring loading-${loaderSize} text-center bg-accent w-12 h-12 ${className}`}
+        className={`loading loading-spinner loading-${loaderSize} text-center bg-accent w-12 h-12 ${className}`}
       ></span>
     </div>
   );
@@ -21,7 +21,7 @@ export const LoaderSmall = ({ size, className }: LoaderProps) => {
   return (
     <div className="loader-container flex items-center justify-center z-50">
       <span
-        className={`loading loading-ring  loading-${loaderSize} text-center bg-accent w-10 h-10  ${className}`}
+        className={`loading loading-spinner  loading-${loaderSize} text-center bg-accent w-10 h-10  ${className}`}
       ></span>
     </div>
   );

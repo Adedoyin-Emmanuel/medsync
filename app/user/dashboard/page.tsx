@@ -24,7 +24,7 @@ import { SlBadge } from "react-icons/sl";
 import { useDispatch } from "react-redux";
 import { DashboardQuickActions } from "@/app/components/DashboardQuickActions/DashboardQuickActions";
 import toast from "react-hot-toast";
-import Seo from "@/app/components/Seo/Seo"; // Special thanks to @benrobo for this trick 🙌
+import Seo from "@/app/components/Seo/Seo";
 
 const Home = () => {
   const dispatch = useDispatch<AppDispatch>();
