@@ -213,7 +213,7 @@ const AppHeader = ({ className, showWelcomeMessage }: AppHeaderProps) => {
               {notificationItems.map((item) => (
                 <p
                   key={item.id}
-                  className="text-sm p-2 hover:bg-purple-100 rounded capitalize"
+                  className="text-sm p-2 hover:bg-primary hover:text-white rounded capitalize"
                   onClick={() => item.onClick()}
                 >
                   {item.text}
@@ -240,7 +240,7 @@ const AppHeader = ({ className, showWelcomeMessage }: AppHeaderProps) => {
               {profileMenuItems.map((item) => (
                 <p
                   key={item.id}
-                  className="text-[13px] md:text-sm p-3 hover:bg-purple-100 rounded capitalize mt-2 cursor-pointer"
+                  className="text-[13px] md:text-sm p-3 hover:bg-primary hover:text-white rounded capitalize mt-2 cursor-pointer"
                   onClick={() => item.onClick()}
                 >
                   {item.text}
@@ -438,7 +438,7 @@ export const HospitalAppHeader = ({
               {notificationItems.map((item) => (
                 <p
                   key={item.id}
-                  className="text-sm p-2 hover:bg-purple-100 rounded capitalize"
+                  className="text-sm p-2 hover:bg-primary hover:text-white rounded capitalize"
                   onClick={() => item.onClick()}
                 >
                   {item.text}
@@ -464,7 +464,7 @@ export const HospitalAppHeader = ({
               {profileMenuItems.map((item) => (
                 <p
                   key={item.id}
-                  className="text-[13px] md:text-sm p-3 hover:bg-purple-100 rounded capitalize mt-2 cursor-pointer"
+                  className="text-[13px] md:text-sm p-3 hover:bg-primary hover:text-white rounded capitalize mt-2 cursor-pointer"
                   onClick={() => item.onClick()}
                 >
                   {item.text}
