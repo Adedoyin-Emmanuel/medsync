@@ -47,7 +47,7 @@ const DashboardCard = ({
 
   return (
     <section
-      className={`rounded-lg md:hidden bg-purple-200 gap-y-2 p-4 w-full ${className}`}
+      className={`rounded-lg md:hidden bg-[#CEF3E1] gap-y-2 p-4 w-full ${className}`}
     >
       <section className="header flex items-center justify-between">
         <section className="first flex items-center gap-x-1">

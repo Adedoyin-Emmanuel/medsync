@@ -10,7 +10,7 @@ interface TextProps {
 
 const Text = ({ className, children, noCapitalize }: TextProps) => {
   return (
-    <p className={`text-md ${noCapitalize ? "" : "capitalize"} ${className}`}>
+    <p className={`text-sm ${noCapitalize ? "" : "capitalize"} ${className}`}>
       {children}
     </p>
   );
